@@ -1,0 +1,14 @@
+Package: getCatPackage
+Title: Get a cat
+Version: 0.0.0.9000
+Authors@R: 
+    person("Anne", "Bozack", , "anne.bozack@gmail.com", role = c("cre"))
+Description: Gets you a cat.
+License: 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends:
+	http
+	jsonlite
+	stringr
