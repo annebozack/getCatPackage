@@ -9,7 +9,7 @@ devtools::install_github("annebozack/getCatPackage")
 library(getCatPackage)
 ```
 
-### Get a cat
+### Get a random cat sampled from https://thecatapi.com/
 
 ```
 getCat()
