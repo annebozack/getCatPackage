@@ -36,5 +36,7 @@ getCat = function(){
     plot(0:1, 0:1, type="n", ann=FALSE, axes=FALSE) 
     ratio = catdata$height/catdata$width
     rasterImage(cat, 0, 0, 1, ratio)
+
+    file.remove(catdata$id)
 }
 
