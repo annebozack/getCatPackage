@@ -20,7 +20,6 @@ getCat()
 
 ### Advanced options
 
-
 Request a breed and description.
 
 ```
@@ -28,6 +27,9 @@ getCat(breed = 'manx', description = T)
 ```
 
 ![cat](https://raw.githubusercontent.com/annebozack/images/master/getCatOpt.gif)
+
+
+### Danger zone
 
 Don't get a cat.
 
