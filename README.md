@@ -17,3 +17,22 @@ getCat()
 
 ![cat](https://raw.githubusercontent.com/annebozack/images/master/getCat.gif)
 
+
+### Advanced options
+
+
+Request a breed and description.
+
+```
+getCat(breed = 'manx', description = T)
+```
+
+![cat](https://raw.githubusercontent.com/annebozack/images/master/getCatOpt.gif)
+
+Don't get a cat.
+
+```
+getCat(cat = F)
+```
+
+![cat](https://raw.githubusercontent.com/annebozack/images/master/getDog.gif)
