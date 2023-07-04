@@ -4,7 +4,10 @@
 \alias{getCat}
 \title{Get cat function}
 \usage{
-getCat()
+getCat(cat = TRUE)
+}
+\arguments{
+\item{cat}{Logical. If true a cat is generated; if false a dog is generated.}
 }
 \description{
 This function will get a cat for you.
