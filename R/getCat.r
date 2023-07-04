@@ -71,7 +71,7 @@ getCat = function(breed = NULL, description = FALSE, cat = TRUE){
         cat('\nBreed not indexed; retrieving another cat instead!')
     }
 
-    if (cat == TRUE & !is.null(breed) & printWarn == FALSE & !is.null(description)){
+    if (cat == TRUE & !is.null(breed) & printWarn == FALSE & description == TRUE){
         cat('\n')
         cat(index$description[index$id == id])
     }
