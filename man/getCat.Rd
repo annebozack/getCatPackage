@@ -18,5 +18,6 @@ This function will get a cat for you.
 }
 \examples{
 getCat()
+getCat(breed = 'siamese', description = TRUE)
 }
 \keyword{cats}

@@ -8,6 +8,7 @@
 #' @export
 #' @examples
 #' getCat()
+#' getCat(breed = 'siamese', description = TRUE)
 
 getCat = function(breed = NULL, description = FALSE, cat = TRUE){
     cat('|\\---/|')
@@ -76,4 +77,5 @@ getCat = function(breed = NULL, description = FALSE, cat = TRUE){
         cat(index$description[index$id == id])
     }
 }
+
 
