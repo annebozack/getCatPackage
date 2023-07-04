@@ -4,10 +4,14 @@
 \alias{getCat}
 \title{Get cat function}
 \usage{
-getCat(cat = TRUE)
+getCat(breed = NULL, description = FALSE, cat = TRUE)
 }
 \arguments{
-\item{cat}{Logical. If true a cat is generated; if false a dog is generated.}
+\item{breed}{Breed of cat to retrieve. Options are "abyssinian", "aegean", "american bobtail", "american curl", "american shorthair", "american wirehair", "arabian mau", "australian mist", "balinese", "bambino", "bengal", "birman", "bombay", "british longhair", "british shorthair", "burmese", "burmilla", "california spangled", "chantilly-tiffany", "chartreux", "chausie", "cheetoh", "colorpoint shorthair", "cornish rex", "cymric", "cyprus", "devon rex", "donskoy", "dragon li", "egyptian mau", "european burmese", "exotic shorthair", "havana brown", "himalayan", "japanese bobtail", "javanese", "khao manee", "korat", "kurilian", "laperm", "maine coon", "malayan", "manx", "munchkin", "nebelung", "norwegian forest cat", "ocicat", "oriental", "persian", "pixie-bob", "ragamuffin", "ragdoll", "russian blue", "savannah", "scottish fold", "selkirk rex", "siamese", "siberian", "singapura", "snowshoe", "somali", "sphynx", "tonkinese", "toyger".}
+
+\item{description}{Logical. If TRUE and breed is provided, a description of the breed will be printed.}
+
+\item{cat}{Logical. If TRUE a cat is retrieved; if FALSE a dog is retrieved.}
 }
 \description{
 This function will get a cat for you.
